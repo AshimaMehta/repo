@@ -11,3 +11,5 @@ WORKDIR /model
 COPY mnistdata.py /model
 RUN python3 mnistdata.py
 CMD python3 mlops.py
+
+From keras.datasets import mnist 
